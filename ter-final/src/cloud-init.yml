@@ -1,0 +1,52 @@
+#cloud-config
+users:
+  - name: ubuntu
+    groups: sudo
+    shell: /bin/bash
+    sudo: ["ALL=(ALL) NOPASSWD:ALL"]
+    ssh_authorized_keys:
+      - ${ssh_public_key}
+
+package_update: true
+package_upgrade: true
+packages:
+  - git
+  - apt-transport-https
+  - ca-certificates
+  - curl
+  - software-properties-common
+  - gnupg-agent
+
+write_files:
+- path: /home/ubuntu/.env
+  owner: ubuntu:ubuntu
+  permissions: '0644'
+  content: |
+    MYSQL_ROOT_PASSWORD=${mysql_password}
+    MYSQL_DATABASE=${mysql_database}
+    MYSQL_USER=${mysql_user}
+    MYSQL_PASSWORD=${mysql_password}
+    MYSQL_ROOT_HOST=%
+
+runcmd:
+  # Добавляем официальный GPG ключ Docker
+  - curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+  # Добавляем репозиторий Docker
+  - echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+  # Обновляем пакеты
+  - apt-get update -y
+  # Устанавливаем Docker и Docker Compose Plugin
+  - apt-get install -y docker-ce docker-ce-cli containerd.io docker-compose-plugin
+  # Добавляем текущего пользователя в группу docker
+  - usermod -aG docker $USER
+  # Добавляем пользователя в группу docker (запуск docker без sudo)
+  - usermod -aG docker ubuntu
+  # Переходим в домашнюю папку пользователя ubuntu
+  - cd /home/ubuntu
+  # Клонируем репозиторий с проектом
+  - git clone https://github.com/DioRoman/shvirtd-example-python-final.git
+  # Перемещаем проект в /opt
+  - mv shvirtd-example-python-final /opt
+  # Запускаем контейнеры в фоне через docker compose с двумя файлами конфигурации
+  - docker compose -f /opt/shvirtd-example-python-final/compose.yaml -f /opt/shvirtd-example-python-final/proxy.yaml up -d
+
