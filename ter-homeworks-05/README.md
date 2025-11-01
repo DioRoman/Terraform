@@ -92,7 +92,7 @@ _Ветку 3.0 я создал, но она уже была исправлен�
 
 _Этот коммит в ветку 5.1_
 
-https://github.com/DioRoman/ter-homeworks-05/commit/77d79d8bed2a87cacc7f6934c06f8bdd1e834b84
+https://github.com/DioRoman/Terraform/tree/main/ter-homeworks-05/5.0
 
 # Задание 4
 
@@ -108,6 +108,6 @@ https://github.com/DioRoman/ter-homeworks-05/blob/5.0/src/validation_vars.tf
 
 Всё тут:
 
-https://github.com/DioRoman/ter-homeworks-05/blob/5.0/src/validation_vars.tf
+https://github.com/DioRoman/Terraform/blob/main/ter-homeworks-05/5.0/src/validation_vars.tf
 
 <img width="877" height="675" alt="458014753-c49ec8d9-ddb2-484d-b476-c89721b5ba89" src="https://github.com/user-attachments/assets/68a070ee-48c6-4be9-837d-7efc08ab393e" />
