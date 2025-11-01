@@ -13,21 +13,21 @@ _core_fraction=5 Гарантированная доля vCPU, которая б
 
 # Задание 2 и Задание 3
 
-https://github.com/DioRoman/ter-homeworks-main-02/blob/main/src/vms_platform.tf
+https://github.com/DioRoman/Terraform/blob/main/ter-homeworks-02/src/vms_platform.tf
 
 # Задание 4
 
-https://github.com/DioRoman/ter-homeworks-main-02/blob/main/src/outputs.tf
+https://github.com/DioRoman/Terraform/blob/main/ter-homeworks-02/src/outputs.tf
 
-![Снимок экрана 2025-06-04 193805](https://github.com/user-attachments/assets/3982ea42-b8fc-41ec-becd-c4d0c99f87e1)
+<img width="996" height="397" alt="452786056-3982ea42-b8fc-41ec-becd-c4d0c99f87e1" src="https://github.com/user-attachments/assets/54a4e4e6-c898-46c9-8ad0-ddc0f7ca5447" />
 
 # Задание 5
 
-https://github.com/DioRoman/ter-homeworks-main-02/blob/main/src/locals.tf
+https://github.com/DioRoman/Terraform/blob/main/ter-homeworks-02/src/locals.tf
 
 # Задание 6
 
-https://github.com/DioRoman/ter-homeworks-main-02/blob/main/src/variables.tf
+https://github.com/DioRoman/Terraform/blob/main/ter-homeworks-02/src/variables.tf
 
 # Задание 7 
 
@@ -67,7 +67,8 @@ https://github.com/DioRoman/ter-homeworks-main-02/blob/main/src/variables.tf
 
 # Задание 9
 
-https://github.com/DioRoman/ter-homeworks-main-02/blob/main/src/main.tf
+https://github.com/DioRoman/Terraform/blob/main/ter-homeworks-02/src/main.tf
 
-![Снимок экрана 2025-06-07 212124](https://github.com/user-attachments/assets/5b0c4c10-bf74-4c8b-acfe-8706ca155de5)
+<img width="745" height="422" alt="452787460-5b0c4c10-bf74-4c8b-acfe-8706ca155de5" src="https://github.com/user-attachments/assets/be1ea84c-5a90-4684-b6c7-aa29f3e0f063" />
+
 
