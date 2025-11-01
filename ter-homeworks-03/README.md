@@ -2,41 +2,41 @@
 
 # Задание 1
 
-![Снимок экрана 2025-06-10 225921](https://github.com/user-attachments/assets/9b749cb0-c063-4500-976a-d7dbb36777de)
+<img width="1269" height="747" alt="455173318-9b749cb0-c063-4500-976a-d7dbb36777de" src="https://github.com/user-attachments/assets/d37e88a1-fbee-4635-a33c-8e31765d9f89" />
 
 # Задание 2
 
-https://github.com/DioRoman/ter-homeworks-main-03/blob/main/src/count-vm.tf
+https://github.com/DioRoman/Terraform/blob/main/ter-homeworks-03/src/count-vm.tf
 
-https://github.com/DioRoman/ter-homeworks-main-03/blob/main/src/for_each-vm.tf
+https://github.com/DioRoman/Terraform/blob/main/ter-homeworks-03/src/for_each-vm.tf
 
-https://github.com/DioRoman/ter-homeworks-main-03/blob/main/src/vm.variables.tf
+https://github.com/DioRoman/Terraform/blob/main/ter-homeworks-03/src/vm.variables.tf
 
-![Снимок экрана 2025-06-11 214659](https://github.com/user-attachments/assets/8cb5987a-8382-4c9d-a594-4070d663b0ec)
+<img width="2420" height="324" alt="455174133-8cb5987a-8382-4c9d-a594-4070d663b0ec" src="https://github.com/user-attachments/assets/af238203-c042-441a-a013-78ddfb0be05b" />
 
 # Задание 3
 
-https://github.com/DioRoman/ter-homeworks-main-03/blob/main/src/disk_vm.tf
+https://github.com/DioRoman/Terraform/blob/main/ter-homeworks-03/src/disk_vm.tf
 
 # Задание 4
 
-https://github.com/DioRoman/ter-homeworks-main-03/blob/main/src/ansible.tf 
+https://github.com/DioRoman/Terraform/blob/main/ter-homeworks-03/src/ansible.tf 
 
 _(тестировал закомментированную часть, вторая часть еще не протестирована)_
 
-https://github.com/DioRoman/ter-homeworks-main-03/blob/main/src/ansible.tftpl
+https://github.com/DioRoman/Terraform/blob/main/ter-homeworks-03/src/ansible.tftpl
 
-![Снимок экрана 2025-06-12 175214](https://github.com/user-attachments/assets/ca040c2a-3850-4fa5-9d54-47753d12c3ea)
+<img width="903" height="244" alt="455175278-ca040c2a-3850-4fa5-9d54-47753d12c3ea" src="https://github.com/user-attachments/assets/d684475c-83f1-4cac-b4b3-590dacbdc22a" />
 
 # Задание 5
 
-https://github.com/DioRoman/ter-homeworks-main-03/blob/main/src/outputs.tf
+https://github.com/DioRoman/Terraform/blob/main/ter-homeworks-03/src/outputs.tf
 
-![Снимок экрана 2025-06-12 183606](https://github.com/user-attachments/assets/3430ac56-935c-4a63-bdb7-ac0696b93380) 
+<img width="731" height="655" alt="455175759-3430ac56-935c-4a63-bdb7-ac0696b93380" src="https://github.com/user-attachments/assets/d387ee2e-7036-4839-8906-9746b69f4606" />
 
 _(в задании требовалость только для count и for each_
 
-![Снимок экрана 2025-06-12 184018](https://github.com/user-attachments/assets/9080b248-83ea-4325-b5c1-18e10062d4ff) 
+<img width="625" height="1017" alt="Снимок экрана 2025-11-01 001834" src="https://github.com/user-attachments/assets/aa888a5e-7352-45a7-b5fb-7aad923f37eb" />
 
 _(но я сделал и для storage)_
 
@@ -44,9 +44,9 @@ _(но я сделал и для storage)_
 
 _Не успел, но сделал заготовки._
 
-https://github.com/DioRoman/ter-homeworks-main-03/blob/main/src/ansible-start.tf
+https://github.com/DioRoman/Terraform/blob/main/ter-homeworks-03/src/ansible-start.tf
 
-https://github.com/DioRoman/ter-homeworks-main-03/blob/main/src/test.yml
+https://github.com/DioRoman/Terraform/blob/main/ter-homeworks-03/src/test.yml
 
 # Задание 7
 ```
