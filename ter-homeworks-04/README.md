@@ -14,7 +14,7 @@ https://github.com/DioRoman/Terraform/tree/main/ter-homeworks-04/src
 
 Ветка 2.0
 
-https://github.com/DioRoman/Terraform/tree/main/ter-homeworks-04/src
+https://github.com/DioRoman/Terraform/tree/main/ter-homeworks-04/src-2.0
 
 Пример terraform console
 
@@ -38,7 +38,7 @@ https://github.com/DioRoman/Terraform/tree/main/ter-homeworks-04/src
 
 Ветка 4.0
 
-https://github.com/DioRoman/ter-homeworks-04/tree/4.0/src
+https://github.com/DioRoman/Terraform/tree/main/ter-homeworks-04/src-4.0
 
 Сети
 
